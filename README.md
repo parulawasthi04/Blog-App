@@ -6,6 +6,8 @@ Whether you're a seasoned storyteller, a budding writer, or simply looking for a
 
 ## Description
 
+In this full stack blog app user can read the blog post and comment on the blog..
+
 Writual comes packed with features designed to enhance your blogging journey:
 
 - **Effortless Content Creation:** An intuitive interface for writing, editing, and publishing your blog posts.
@@ -16,7 +18,7 @@ Writual comes packed with features designed to enhance your blogging journey:
 - **Responsive Design:** Enjoy a seamless experience across all devices – desktop, tablet, and mobile.
 
 There are two ways by which a user can use this website:
-1. By admin login : admin can add blogs , verify comment and do any modifications in the blog post like deleting unpublishing and publishing the blogs.
+1. By admin login :  We have an admin login through which admin can publish the new blog and manage the existing blogs
 2. without admin login : User can only read and comment on the blogs.
 
 ## Technologies Used
