@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from 'react';
 import { useAppContext } from '../../context/AppContext';
 import toast from 'react-hot-toast';
+import { useEffect } from 'react';
 
 const Login = () => {
 
@@ -28,6 +29,12 @@ const Login = () => {
     }
   }
 
+  useEffect(() => {
+  // Set default values for admin login
+  setEmail("admin@example.com");
+  setPassword("admin123");
+}, []);
+
   return (
     <div className='flex items-center justify-center h-screen' >
       <div className='w-full max-w-sm p-6 max-md:m-6 border border-primary/30
@@ -42,6 +49,7 @@ const Login = () => {
             <div className='flex flex-col' >
               <label>Email</label>
               <input onChange={e=>setEmail(e.target.value)} value={email} type="email" required placeholder='your email id'
+              defaultValue="admin@example.com"
               className='border-b-2 border-gray-300 p-2 outline-none mb-6'/>
             </div>
 
